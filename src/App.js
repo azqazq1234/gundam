@@ -1,6 +1,6 @@
-import React from 'react';
+import { Row, Col, Table, Tag } from 'antd';
 import './App.css';
-import {Row, Col, Table, Tag} from 'antd';
+import React from "react";
 
 function App() {
     const columns = [
@@ -249,8 +249,6 @@ function App() {
             type: ['剧场版']
         },
     ];
-
-
 
     return (
         <div>
